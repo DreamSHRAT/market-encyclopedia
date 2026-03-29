@@ -1,0 +1,114 @@
+{
+  "id": "stock-teach-advanced",
+  "title": "Foundations: Advanced / pro topics",
+  "tags": [
+    "stock-teaching",
+    "advanced",
+    "basics"
+  ],
+  "diagnosticQuestions": [
+    {
+      "prompt": "What is day trading in one line?",
+      "choices": [
+        "Running a strategy on past charts/data to see how it would have performed. Useful to learn mechanics — but the future is not a replay of the past.",
+        "Opening and closing trades within the same day (often many times) to try to profit from short price moves — very different from long-term investing.",
+        "Overtrading, revenge trades after losses, and ignoring a plan. Rules and breaks matter."
+      ],
+      "correctIndex": 1,
+      "hint": "Pick the answer that matches the plain-language idea from the lesson.",
+      "explanation": "Opening and closing trades within the same day (often many times) to try to profit from short price moves — very different from long-term investing."
+    },
+    {
+      "prompt": "Why do educators say most day traders should expect a steep learning curve?",
+      "choices": [
+        "An order to exit a trade near a chosen price to cap how much you lose if the market moves against you. It does not guarantee a fill at exactly that price in fast markets.",
+        "Because short-term prices are noisy, fees add up, emotions spike, and luck can fool you until it stops.",
+        "Opening and closing trades within the same day (often many times) to try to profit from short price moves — very different from long-term investing."
+      ],
+      "correctIndex": 1,
+      "hint": "Pick the answer that matches the plain-language idea from the lesson.",
+      "explanation": "Because short-term prices are noisy, fees add up, emotions spike, and luck can fool you until it stops."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "What is day trading in one line?",
+      "body": "Opening and closing trades within the same day (often many times) to try to profit from short price moves — very different from long-term investing.\n\n**Example:** Surfing one wave all morning vs. sailing across an ocean — different sport, different injuries.",
+      "visual": "none"
+    },
+    {
+      "title": "Why do educators say most day traders should expect a steep learning curve?",
+      "body": "Because short-term prices are noisy, fees add up, emotions spike, and luck can fool you until it stops.\n\n**Example:** Winning a few carnival games does not mean you own the carnival.",
+      "visual": "none"
+    },
+    {
+      "title": "What is a stop-loss (simple idea)?",
+      "body": "An order to exit a trade near a chosen price to cap how much you lose if the market moves against you. It does not guarantee a fill at exactly that price in fast markets.\n\n**Example:** Seatbelt: it does not prevent every injury, but it limits how bad the crash can get.",
+      "visual": "none"
+    },
+    {
+      "title": "What is risk/reward ratio in trading talk?",
+      "body": "Comparing how much you might lose on a trade to how much you hope to gain. Pros often talk about small, controlled losses and bigger planned wins — but real life is messy.\n\n**Example:** Betting $1 to try to win $2 is different from betting $10 to win $1.",
+      "visual": "none"
+    },
+    {
+      "title": "What is backtesting?",
+      "body": "Running a strategy on past charts/data to see how it would have performed. Useful to learn mechanics — but the future is not a replay of the past.\n\n**Example:** Practicing a play against old game tape: helpful drill, not a promise of next Friday’s game.",
+      "visual": "none"
+    },
+    {
+      "title": "Why can “more screen time” hurt traders?",
+      "body": "Overtrading, revenge trades after losses, and ignoring a plan. Rules and breaks matter.\n\n**Example:** Studying 16 hours straight before a test — tired brains make sloppy mistakes.",
+      "visual": "none"
+    },
+    {
+      "title": "What is a fair takeaway from long-term investing teachers like the “15 minutes of lessons” style videos?",
+      "body": "Principles repeat: patience, understanding the business, managing emotions, and avoiding arrogance after wins.\n\n**Example:** Great coaches repeat basics — layups, breathing, footwork — not because pros are dumb, because discipline beats tricks.",
+      "visual": "none"
+    },
+    {
+      "title": "If you remember only three rules before risking real money, what should they be?",
+      "body": "(1) Never use money you need for bills soon. (2) Understand what you buy. (3) Know that you can lose — so size your bets and sleep at night.\n\n**Example:** Helmet, lights, brakes — before a night bike ride. Boring saves you.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "⚡ Level 4 — Advanced / pro topics",
+    "body": "Day trading, strategy discipline, risk/reward, and why most short-term traders struggle.\n\nStart with the first card anytime you need a reset.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "Why can “more screen time” hurt traders?",
+      "choices": [
+        "Comparing how much you might lose on a trade to how much you hope to gain. Pros often talk about small, controlled losses and bigger planned wins — but real life is messy.",
+        "An order to exit a trade near a chosen price to cap how much you lose if the market moves against you. It does not guarantee a fill at exactly that price in fast markets.",
+        "Overtrading, revenge trades after losses, and ignoring a plan. Rules and breaks matter."
+      ],
+      "correctIndex": 2,
+      "explanation": "Overtrading, revenge trades after losses, and ignoring a plan. Rules and breaks matter."
+    },
+    {
+      "prompt": "What is a fair takeaway from long-term investing teachers like the “15 minutes of lessons” style videos?",
+      "choices": [
+        "Opening and closing trades within the same day (often many times) to try to profit from short price moves — very different from long-term investing.",
+        "Principles repeat: patience, understanding the business, managing emotions, and avoiding arrogance after wins.",
+        "(1) Never use money you need for bills soon. (2) Understand what you buy. (3) Know that you can lose — so size your bets and sleep at night."
+      ],
+      "correctIndex": 1,
+      "explanation": "Principles repeat: patience, understanding the business, managing emotions, and avoiding arrogance after wins."
+    },
+    {
+      "prompt": "If you remember only three rules before risking real money, what should they be?",
+      "choices": [
+        "Running a strategy on past charts/data to see how it would have performed. Useful to learn mechanics — but the future is not a replay of the past.",
+        "(1) Never use money you need for bills soon. (2) Understand what you buy. (3) Know that you can lose — so size your bets and sleep at night.",
+        "Comparing how much you might lose on a trade to how much you hope to gain. Pros often talk about small, controlled losses and bigger planned wins — but real life is messy."
+      ],
+      "correctIndex": 1,
+      "explanation": "(1) Never use money you need for bills soon. (2) Understand what you buy. (3) Know that you can lose — so size your bets and sleep at night."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

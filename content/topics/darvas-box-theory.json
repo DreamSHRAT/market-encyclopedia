@@ -1,0 +1,83 @@
+{
+  "id": "darvas-box-theory",
+  "title": "Darvas boxes: clear ceilings and floors",
+  "tags": ["Darvas", "box", "breakout"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "A Darvas-style “box” is:",
+      "choices": [
+        "A price range where the stock repeatedly hits similar highs and lows",
+        "A physical warehouse",
+        "A bond ladder"
+      ],
+      "correctIndex": 0,
+      "hint": "Draw a ceiling and a floor — price ping-pongs inside until it doesn’t."
+    },
+    {
+      "prompt": "A breakout without strong volume often:",
+      "choices": [
+        "Is treated as suspect — demand may be weak",
+        "Is always better than high volume",
+        "Means the exchange is closed"
+      ],
+      "correctIndex": 0,
+      "hint": "Volume can confirm interest."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Boxes reduce noise",
+      "body": "Darvas looked for defined ranges. When price breaks the top with force, it can signal demand won. Until then, patience — rumors don’t replace price.",
+      "visual": "none"
+    },
+    {
+      "title": "Volume as ignition",
+      "body": "A spike in volume on a breakout can act like fuel — low-volume breakouts can fail more often (not always).",
+      "visual": "none"
+    },
+    {
+      "title": "Stops follow price",
+      "body": "The “ghost stop” idea: as price rises, raise your floor under the trade. If wrong, exit — don’t argue with the tape.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "Define the box, demand volume on breakout, ignore noise, and trail risk. Same old story: process beats tips.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "Price breaks out of a $50–$55 box to $56 on below-average volume. Many Darvas-style traders would:",
+      "choices": [
+        "Treat it as weak confirmation — may wait or skip",
+        "Always double size",
+        "Ignore volume entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume helps validate demand at the break."
+    },
+    {
+      "prompt": "Inside the box, rumors from “the street” are often:",
+      "choices": [
+        "Secondary to what price and volume actually do",
+        "Always correct",
+        "Illegal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Price action is the vote that counts in this style."
+    },
+    {
+      "prompt": "Trailing stops mainly help traders:",
+      "choices": [
+        "Lock in progress and cap downside if the trend breaks",
+        "Eliminate taxes",
+        "Guarantee profits"
+      ],
+      "correctIndex": 0,
+      "explanation": "They’re a risk tool, not a profit promise."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

@@ -1,0 +1,79 @@
+{
+  "id": "candles-01-one-bar",
+  "title": "One candle = one story",
+  "tags": ["candles", "OHLC", "basics"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "If you only had ONE price from yesterday, what would be missing compared to a full candle?",
+      "choices": [
+        "Nothing — one price tells the whole day",
+        "You’d miss the high, low, open, and how the day moved between them",
+        "You’d only miss the company name"
+      ],
+      "correctIndex": 1,
+      "hint": "Think: start line, finish line, best moment, worst moment."
+    },
+    {
+      "prompt": "The thick middle of a candle (the body) is mainly about:",
+      "choices": [
+        "Where the stock opened vs closed in that period",
+        "The CEO’s mood",
+        "How many people own the stock"
+      ],
+      "correctIndex": 0,
+      "hint": "Body connects two important prices at the start and end of the slice of time."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Picture a single race",
+      "body": "One candle is a snapshot for a time you pick (1 minute, 1 day, whatever). It answers: Where did we start? Where did we end? How high did we go? How low did we go?",
+      "visual": "candle"
+    },
+    {
+      "title": "The four corners",
+      "body": "Open: where the slice began. Close: where it ended. High: the top wick tip (best price reached). Low: the bottom wick tip (worst price reached). Together they are often called OHLC.",
+      "visual": "candle"
+    },
+    {
+      "title": "Why it’s not magic",
+      "body": "A candle describes what already happened. It doesn’t predict tomorrow by itself — it’s a picture you use with context (trend, levels, and your rules).",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "You’re ahead — quick recap",
+    "body": "One candle = open, high, low, close for that period. The body links open and close; wicks show the extremes. It’s history on a stick, not a crystal ball.",
+    "visual": "candle"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "OHLC stands for:",
+      "choices": [
+        "Only Happy Little Charts",
+        "Open, High, Low, Close",
+        "Overhead, Hidden, Lost, Cancelled"
+      ],
+      "correctIndex": 1,
+      "explanation": "Those four prices define the candle for that period."
+    },
+    {
+      "prompt": "The thin lines above/below the body are often called:",
+      "choices": ["Potatoes", "Wicks (or shadows)", "Buttons"],
+      "correctIndex": 1,
+      "explanation": "Wicks show how far price stretched beyond the open–close range."
+    },
+    {
+      "prompt": "A candle by itself is best thought of as:",
+      "choices": [
+        "A guaranteed prediction",
+        "A record of trading over a chosen time window",
+        "A message from the exchange about your account"
+      ],
+      "correctIndex": 1,
+      "explanation": "It encodes past prices; interpretation needs context and risk rules."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

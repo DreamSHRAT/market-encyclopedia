@@ -1,0 +1,83 @@
+{
+  "id": "paulos-math-myths",
+  "title": "Math myths: streaks, expectations, and luck",
+  "tags": ["Paulos", "probability", "fallacies"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "The gambler’s fallacy is:",
+      "choices": [
+        "Believing past independent events change the odds of the next one (e.g. “due” for a win)",
+        "Always correct",
+        "The same as diversification"
+      ],
+      "correctIndex": 0,
+      "hint": "A fair coin doesn’t owe you a heads after tails."
+    },
+    {
+      "prompt": "You can win often and still lose money if:",
+      "choices": [
+        "Losses are larger than wins — expected value matters, not win rate alone",
+        "You win 100% of trades",
+        "You use a calculator"
+      ],
+      "correctIndex": 0,
+      "hint": "Small wins + rare huge losses = bad game."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Win rate isn’t enough",
+      "body": "Expected value combines how often you win, how big wins are, and how big losses are. A 70% win rate can still lose if the 30% wipes you.",
+      "visual": "none"
+    },
+    {
+      "title": "Random walk vs patterns",
+      "body": "Markets have randomness. Some claim edges from patterns; others say much is noise. Honest traders measure results over many trades.",
+      "visual": "none"
+    },
+    {
+      "title": "Humility",
+      "body": "If you confuse luck for skill, you’ll size up at the wrong time. Track outcomes and stay skeptical of your own story.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "No “due” trades, judge strategies by expected value, and admit randomness. Math literacy protects you from stories your brain loves.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "After five losses in a row on a fair-odds game, the next outcome is:",
+      "choices": [
+        "Still independent — past doesn’t change fair odds",
+        "Guaranteed to win",
+        "Illegal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gambler’s fallacy is believing you’re “due.”"
+    },
+    {
+      "prompt": "Expected value in trading accounts for:",
+      "choices": [
+        "Sizes and probabilities of wins and losses",
+        "Only the last trade",
+        "Only the CEO"
+      ],
+      "correctIndex": 0,
+      "explanation": "It’s the long-run average outcome per trial."
+    },
+    {
+      "prompt": "Why track many trades?",
+      "choices": [
+        "To separate luck from edge with enough data",
+        "Because brokers require it for tax refunds",
+        "To guarantee a win next week"
+      ],
+      "correctIndex": 0,
+      "explanation": "Small samples lie; larger samples tell more truth."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

@@ -1,0 +1,79 @@
+{
+  "id": "risk-stops-seven-eight",
+  "title": "The 7–8% cut: when wrong, get out",
+  "tags": ["risk", "stop", "ONEIL", "Darvas"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "A common O’Neil-style rule of thumb for long stock trades is:",
+      "choices": [
+        "Cut losses around 7–8% below your buy point (method-dependent — verify your rules)",
+        "Never sell",
+        "Always use 50% stops"
+      ],
+      "correctIndex": 0,
+      "hint": "Small cuts preserve capital for the next setup."
+    },
+    {
+      "prompt": "The point of a tight initial stop is mainly:",
+      "choices": [
+        "To keep losses small enough to survive many tries",
+        "To guarantee winners",
+        "To avoid paying taxes"
+      ],
+      "correctIndex": 0,
+      "hint": "Survival + many attempts."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Why a line in the sand",
+      "body": "If your thesis was a breakout and price collapses, the thesis failed. Hoping turns small losses into big ones.",
+      "visual": "none"
+    },
+    {
+      "title": "Darvas and trails",
+      "body": "Darvas trailed stops as price rose. The 7–8% idea is often about the initial buy — later you may lift the floor as price proves you right.",
+      "visual": "none"
+    },
+    {
+      "title": "Your number",
+      "body": "Some use 7%, some use ATR-based stops — pick one system and track results. The rule is discipline, not magic numbers.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "Define max loss before entry. If price hits it, exit — then review cold. Small losses are tuition; huge losses are disasters.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "Buying at $100 with a max 8% loss rule implies selling near:",
+      "choices": ["$92", "$108", "$100 forever"],
+      "correctIndex": 0,
+      "explanation": "8% down from entry is roughly $92."
+    },
+    {
+      "prompt": "Ignoring a stop because “it will come back” mainly risks:",
+      "choices": [
+        "Turning a small loss into a career-threatening drawdown",
+        "Earning more dividends automatically",
+        "Reducing volatility"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hope is not a risk model."
+    },
+    {
+      "prompt": "Trailing stops on winners help:",
+      "choices": [
+        "Protect open profits while giving trend room",
+        "Remove all volatility",
+        "Guarantee you sell the top"
+      ],
+      "correctIndex": 0,
+      "explanation": "They balance giving back too much vs noise."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

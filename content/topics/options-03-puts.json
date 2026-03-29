@@ -1,0 +1,83 @@
+{
+  "id": "options-03-puts",
+  "title": "Puts: the right to sell",
+  "tags": ["options", "puts", "hedging"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "A put option gives the owner the right to:",
+      "choices": [
+        "Sell the underlying at the strike (before expiry, American-style)",
+        "Buy unlimited shares for free",
+        "Vote twice at shareholder meetings"
+      ],
+      "correctIndex": 0,
+      "hint": "Put = push it away / sell at the strike."
+    },
+    {
+      "prompt": "People sometimes buy puts as insurance because:",
+      "choices": [
+        "They guarantee a company never drops",
+        "If the stock falls, the put can gain value (before expiry), offsetting some stock pain — minus premium and fees",
+        "Puts always make money"
+      ],
+      "correctIndex": 1,
+      "hint": "Insurance has a cost (premium) and limits; puts are similar in spirit."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Put = optional sell ticket",
+      "body": "You pay premium for the right to sell at the strike. If the market crashes below strike, that right can be valuable. If the stock stays high, the put may expire worthless.",
+      "visual": "put-payoff"
+    },
+    {
+      "title": "Protective put (idea only)",
+      "body": "Own stock + long put: you’re buying a floor near the strike (not perfect — premium and timing matter). It’s a classic textbook hedge illustration, not a product recommendation.",
+      "visual": "put-payoff"
+    },
+    {
+      "title": "Selling puts",
+      "body": "Selling a put collects premium but may obligate you to buy stock at the strike if assigned — fine if you wanted the stock and size anyway (cash-secured put idea). Still risk: large drops.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap: puts",
+    "body": "Long put = pay premium, right to sell at strike. Can act like insurance on long stock (for a cost). Short put = collect premium, take assignment risk. Always model fees and gap risk.",
+    "visual": "put-payoff"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "If a stock is above the strike at expiry, a long put is typically:",
+      "choices": [
+        "Automatically exercised for a profit no matter what",
+        "Out-of-the-money and may expire worthless",
+        "Converted into a call"
+      ],
+      "correctIndex": 1,
+      "explanation": "No intrinsic value if selling at strike is worse than the market."
+    },
+    {
+      "prompt": "A protective put (conceptually) combines:",
+      "choices": [
+        "Long stock + long put",
+        "Short stock + short put only",
+        "Only bonds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Long shares plus a put option to limit downside (for the cost of premium)."
+    },
+    {
+      "prompt": "Selling a put without cash or margin to buy the stock if assigned is:",
+      "choices": [
+        "Always risk-free",
+        "Dangerous — assignment can force purchase at the strike; need a plan and capital",
+        "Guaranteed by the FDIC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cash-secured means you set aside capital; naked selling can be very risky."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

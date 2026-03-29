@@ -1,0 +1,88 @@
+{
+  "id": "can-slim-overview",
+  "title": "CAN SLIM: seven letters, one checklist",
+  "tags": ["ONEIL", "CANSLIM", "fundamentals"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "CAN SLIM is best described as:",
+      "choices": [
+        "A checklist for growth-style stock selection (O’Neil framework) — not a guarantee",
+        "A government bond",
+        "A type of option spread only"
+      ],
+      "correctIndex": 0,
+      "hint": "It ties current and annual earnings, newness, supply/demand, leadership, sponsorship, and market direction."
+    },
+    {
+      "prompt": "The “M” in CAN SLIM usually emphasizes:",
+      "choices": [
+        "Market direction — what the major indexes are doing",
+        "Only the CEO’s middle name",
+        "Margin loans for everyone"
+      ],
+      "correctIndex": 0,
+      "hint": "Even strong stocks can struggle in a bad tape."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "C & A — earnings engine",
+      "body": "C looks at current quarterly earnings growth. A looks at annual growth over several years. Strong growth is a starting filter — not the only input.",
+      "visual": "none"
+    },
+    {
+      "title": "N — something new",
+      "body": "New products, new management, or new highs can matter because change can drive attention and re-rating — but hype can also mislead.",
+      "visual": "none"
+    },
+    {
+      "title": "S & L — supply, demand, leadership",
+      "body": "Volume at key pivots shows demand. Relative strength vs the market helps separate leaders from laggards — strength matters in momentum regimes.",
+      "visual": "none"
+    },
+    {
+      "title": "I & M — sponsorship and tape",
+      "body": "Institutional quality matters to many investors. And if the market is in a correction, even good names can fail — M is your weather report.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "CAN SLIM bundles earnings, novelty, volume, leadership, sponsorship, and market direction into one repeatable scan. You still need size, stops, and discipline.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "A stock shows ~10% current earnings growth and weak relative strength vs the market. A strict CAN SLIM mindset might:",
+      "choices": [
+        "At minimum question whether it meets the “C” and “L” spirit — often weak candidates fail multiple letters",
+        "Buy automatically",
+        "Ignore earnings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The framework checks several boxes; weak growth and weak leadership often fail the story."
+    },
+    {
+      "prompt": "RSI in the 40s for a stock (example) with mediocre earnings growth suggests:",
+      "choices": [
+        "It may not act like a leader — context matters vs the whole checklist",
+        "It must be bought",
+        "CAN SLIM is only about RSI"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leadership and earnings are broader than one number — but weak RS is a yellow flag in many scans."
+    },
+    {
+      "prompt": "The “M” letter exists mainly because:",
+      "choices": [
+        "Individual stocks and the broad market interact",
+        "Only mutual funds matter",
+        "Charts never lie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tape conditions affect follow-through on setups."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

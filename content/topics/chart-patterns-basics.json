@@ -1,0 +1,83 @@
+{
+  "id": "chart-patterns-basics",
+  "title": "Bases & breakouts: shapes traders name",
+  "tags": ["patterns", "bases", "charts"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "A “base” on a chart is roughly:",
+      "choices": [
+        "A period where price mostly tightens or rests before a potential move",
+        "A guarantee the stock will double",
+        "The same as a bank account"
+      ],
+      "correctIndex": 0,
+      "hint": "Think pause, not promise."
+    },
+    {
+      "prompt": "A “cup with handle” is best thought of as:",
+      "choices": [
+        "A descriptive nickname for a rounded dip-and-rise with a small pullback",
+        "A legal contract",
+        "A dividend schedule"
+      ],
+      "correctIndex": 0,
+      "hint": "It’s a shape people recognize — still needs confirmation and risk rules."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Why names exist",
+      "body": "Patterns like cup-with-handle, double bottom, flat base, and ascending base are shorthand for how price rested and tightened. They describe history, not destiny.",
+      "visual": "none"
+    },
+    {
+      "title": "Breakouts want evidence",
+      "body": "A breakout means price pushes past a level traders were watching. Serious traders look for volume and context — not one candle alone.",
+      "visual": "none"
+    },
+    {
+      "title": "Your job",
+      "body": "Learn to recognize shapes, then always ask: trend, volume, risk, and what you’ll do if wrong.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "Named patterns summarize how price consolidated. Breakouts can matter — but confirmation, size, and stops matter more than the label.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "Pattern names are best treated as:",
+      "choices": [
+        "Guaranteed buy signals",
+        "Useful labels that still need confirmation and risk management",
+        "Banned on most exchanges"
+      ],
+      "correctIndex": 1,
+      "explanation": "Labels describe shape; edge comes from process."
+    },
+    {
+      "prompt": "A “double bottom” roughly looks like:",
+      "choices": [
+        "Two similar lows and a bounce in between",
+        "Two CEOs",
+        "Two stocks in one ticker"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two tests of a floor area — a classic picture traders discuss."
+    },
+    {
+      "prompt": "At a breakout, many traders check volume because:",
+      "choices": [
+        "It can show whether participation supports the move",
+        "Volume is always zero on breakouts",
+        "Volume replaces the need for a stop"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stronger participation can (not always) validate a push through a level."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

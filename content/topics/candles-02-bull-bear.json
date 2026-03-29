@@ -1,0 +1,83 @@
+{
+  "id": "candles-02-bull-bear",
+  "title": "Green vs red: who won the slice?",
+  "tags": ["candles", "bullish", "bearish"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "In the usual color setup, a “bullish” candle often means:",
+      "choices": [
+        "Close was below open (sellers pushed harder)",
+        "Close was above open (buyers won that slice)",
+        "The stock doubled in size"
+      ],
+      "correctIndex": 1,
+      "hint": "Bulls like when price finishes higher than it started in that window."
+    },
+    {
+      "prompt": "A long upper wick can suggest (in simple words):",
+      "choices": [
+        "Price tried to go higher but was pushed back down before the close",
+        "The chart is broken",
+        "Volume is always zero"
+      ],
+      "correctIndex": 0,
+      "hint": "The tip shows a high that couldn’t be held by the close."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Two teams in one bar",
+      "body": "Think of buyers and sellers arguing during that time slice. If the close is above the open, buyers were stronger in the end — often colored green/white (bullish). If the close is below the open, sellers had the edge — often red (bearish).",
+      "visual": "candle-bull-bear"
+    },
+    {
+      "title": "Wicks tell drama",
+      "body": "Long wicks mean price went somewhere dramatic during the slice, then snapped back. Upper wick: tried higher, failed to hold. Lower wick: dipped, then bounced.",
+      "visual": "candle-bull-bear"
+    },
+    {
+      "title": "Patterns are hints, not promises",
+      "body": "Names like “hammer” or “engulfing” are shorthand for shapes. They describe mood in that window — not a guarantee of the next window.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap: color and wicks",
+    "body": "Bullish slice: close > open (often green). Bearish: close < open (often red). Long wicks show rejection or recovery within the bar. Names describe shape; risk rules still matter.",
+    "visual": "candle-bull-bear"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "A bullish candle in the common coloring means:",
+      "choices": [
+        "Close below open",
+        "Close above open",
+        "The company paid a dividend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buyers finished stronger than where the slice started."
+    },
+    {
+      "prompt": "A long upper wick mainly highlights:",
+      "choices": [
+        "That intraday highs were tested but not held by the close",
+        "That the stock is delisted",
+        "That dividends were reinvested"
+      ],
+      "correctIndex": 0,
+      "explanation": "The session probed higher, then price fell back from that extreme."
+    },
+    {
+      "prompt": "Pattern names on charts are best treated as:",
+      "choices": [
+        "Guaranteed trade signals",
+        "Descriptive labels that still need context and risk management",
+        "Illegal in most countries"
+      ],
+      "correctIndex": 1,
+      "explanation": "They summarize shape; edge comes from process, not memorizing labels alone."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "title": "Stock Teaching",
+  "subtitle": "Questions & answers (beginner → advanced)",
+  "audienceNote": "Plain-language explanations for high school readers. Educational only — not financial advice.",
+  "sequence": [
+    {
+      "order": 1,
+      "levelId": "beginner",
+      "levelTitle": "Level 1 — Beginner",
+      "levelSummary": "What stocks are, why people invest, and how the market behaves over long periods.",
+      "items": [
+        {
+          "id": "st-001",
+          "order": 1,
+          "question": "In one sentence, what is a share of stock?",
+          "answer": "A share is a small slice of ownership in a company. If the company does well over time, your slice can become more valuable.",
+          "example": "Imagine you and nine friends open a lemonade stand and split it 10 ways. Each person’s paper slip is like one share — you own part of the business.",
+          "sourceVideoIds": ["bqPSFw1eiNc", "mCyIt_i-WTk"]
+        },
+        {
+          "id": "st-002",
+          "order": 2,
+          "question": "Why do companies sell stock to the public?",
+          "answer": "They sell pieces of ownership to raise money so they can grow — hire people, build factories, invent products, or pay down debt.",
+          "example": "A bike company needs $1 million for a new factory. Instead of borrowing it all from a bank, it sells shares so many investors chip in.",
+          "sourceVideoIds": ["bqPSFw1eiNc", "bb6_M_srMBk"]
+        },
+        {
+          "id": "st-003",
+          "order": 3,
+          "question": "What does it mean that the stock market has “gone up on average” over many years?",
+          "answer": "It means that, measured over long stretches (like decades), broad groups of stocks have tended to grow faster than cash sitting in a drawer — even though there are crashes along the way.",
+          "example": "Think of a bumpy road that still climbs a hill: short parts go down (crashes), but the long trip is upward if you zoom out far enough.",
+          "sourceVideoIds": ["bqPSFw1eiNc", "BKWmiNTMfRY"]
+        },
+        {
+          "id": "st-004",
+          "order": 4,
+          "question": "What is inflation, in simple words?",
+          "answer": "Inflation is when money buys less over time because prices for food, rent, and other stuff slowly rise.",
+          "example": "If a movie ticket was $8 last year and $9 this year, your same $8 buys less fun than before.",
+          "sourceVideoIds": ["mCyIt_i-WTk", "88ghYAnJTTs"]
+        },
+        {
+          "id": "st-005",
+          "order": 5,
+          "question": "Why can keeping all your savings as cash for decades be risky?",
+          "answer": "Because inflation can shrink what your money can buy, even if the number on your account stays the same.",
+          "example": "$1,000 under your mattress is still $1,000 — but years later it might only buy what $600 used to buy.",
+          "sourceVideoIds": ["mCyIt_i-WTk"]
+        },
+        {
+          "id": "st-006",
+          "order": 6,
+          "question": "What is the basic difference between saving and investing?",
+          "answer": "Saving is parking money somewhere safer and steadier (like a bank account). Investing means taking risk to try to grow money over time, usually by buying assets like stocks or funds.",
+          "example": "Savings account: small, steady interest. Stocks: bigger possible growth, but the value can swing up and down a lot.",
+          "sourceVideoIds": ["mCyIt_i-WTk", "88ghYAnJTTs"]
+        },
+        {
+          "id": "st-007",
+          "order": 7,
+          "question": "Do you need to be rich to start learning about investing?",
+          "answer": "No. Many people start small and learn habits first — regular amounts, patience, and not betting money they need for rent or food.",
+          "example": "Like practicing piano 10 minutes a day: small, steady steps beat waiting for a “perfect” moment.",
+          "sourceVideoIds": ["mCyIt_i-WTk", "yR5o-7ULWls"]
+        },
+        {
+          "id": "st-008",
+          "order": 8,
+          "question": "What does “long-term” usually mean for stock investing?",
+          "answer": "It means measuring results in years or decades, not days — giving good companies and diversified baskets time to ride out bad years.",
+          "example": "Planting a tree: you do not dig it up every week to check roots. You water it and wait seasons.",
+          "sourceVideoIds": ["bqPSFw1eiNc", "W-Sx_9QElfw"]
+        },
+        {
+          "id": "st-009",
+          "order": 9,
+          "question": "What is a stock market crash?",
+          "answer": "A fast, scary drop in prices across many stocks. It hurts in the moment, but history shows markets have recovered after major crashes — though it can take time.",
+          "example": "Like a sudden thunderstorm on a hike: unpleasant, but not the same as the trail disappearing forever.",
+          "sourceVideoIds": ["bqPSFw1eiNc", "bb6_M_srMBk"]
+        },
+        {
+          "id": "st-010",
+          "order": 10,
+          "question": "Why is copying “whatever is hype on the internet today” a bad plan for beginners?",
+          "answer": "Because hype moves fast and emotions run hot. Beginners do better building boring basics: learn terms, diversify, think in years, and avoid gambling with money you need.",
+          "example": "Chasing a viral stock tip is like buying concert tickets from a stranger in a parking lot — sometimes fine, often a mess.",
+          "sourceVideoIds": ["yR5o-7ULWls", "_xpFc_x0OwA"]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "levelId": "building",
+      "levelTitle": "Level 2 — Building blocks",
+      "levelSummary": "Funds, diversification, habits, and why emotions matter as much as numbers.",
+      "items": [
+        {
+          "id": "st-011",
+          "order": 11,
+          "question": "What is an index, like the S&P 500, in plain English?",
+          "answer": "A scoreboard that tracks a big group of companies. The S&P 500 follows roughly 500 large U.S. companies — not one stock, a whole basket.",
+          "example": "Instead of grading one student, you average the grades of 500 students to see how “the whole grade” is doing.",
+          "sourceVideoIds": ["mCyIt_i-WTk", "88ghYAnJTTs"]
+        },
+        {
+          "id": "st-012",
+          "order": 12,
+          "question": "What is an ETF (simple version)?",
+          "answer": "A fund you can buy and sell like a stock, which usually holds many companies or bonds inside one ticker — a handy way to diversify.",
+          "example": "A smoothie: many fruits blended together. One cup, many ingredients.",
+          "sourceVideoIds": ["88ghYAnJTTs", "W-Sx_9QElfw"]
+        },
+        {
+          "id": "st-013",
+          "order": 13,
+          "question": "What is diversification?",
+          "answer": "Not putting all your money in one company or one bet. If one part struggles, other parts can balance the ride.",
+          "example": "A sports team: one injured player hurts less if the rest of the roster is strong.",
+          "sourceVideoIds": ["W-Sx_9QElfw", "QrXysBLjkGA"]
+        },
+        {
+          "id": "st-014",
+          "order": 14,
+          "question": "Why does starting earlier often matter more than the exact stock you pick?",
+          "answer": "Because time lets compounding (growth on growth) work. Starting late means you miss years of potential snowballing.",
+          "example": "Two snowballs rolling downhill: the one that starts higher on the hill ends much bigger, even with the same snow.",
+          "sourceVideoIds": ["mCyIt_i-WTk", "yR5o-7ULWls"]
+        },
+        {
+          "id": "st-015",
+          "order": 15,
+          "question": "What is compound growth in one picture?",
+          "answer": "Your money earns returns, and then those returns can earn returns too — like a snowball picking up more snow as it rolls.",
+          "example": "$100 grows 8% to $108. Next year 8% applies to $108, not just the original $100.",
+          "sourceVideoIds": ["mCyIt_i-WTk"]
+        },
+        {
+          "id": "st-016",
+          "order": 16,
+          "question": "Why do many teachers say “investing is emotional,” not just math?",
+          "answer": "Because fear and greed make people sell low after drops or chase hype at the top. Staying calm is a skill.",
+          "example": "Panic-selling after a bad quiz can make you quit school; zooming out helps you recover and learn.",
+          "sourceVideoIds": ["W-Sx_9QElfw", "27cXk34t1gI"]
+        },
+        {
+          "id": "st-017",
+          "order": 17,
+          "question": "What is a simple way to think about risk?",
+          "answer": "The chance you lose money or sleep badly because prices swing. More possible reward often comes with more possible pain.",
+          "example": "Roller coasters: bigger drops, bigger thrills — not everyone wants that ride with lunch money.",
+          "sourceVideoIds": ["88ghYAnJTTs", "_xpFc_x0OwA"]
+        },
+        {
+          "id": "st-018",
+          "order": 18,
+          "question": "What does it mean to “do your own research” (DYOR)?",
+          "answer": "Read what the company does, how it makes money, and what could go wrong — instead of trusting a random caption online.",
+          "example": "Before adopting a pet, you read about food, space, and vet costs — same idea for a stock.",
+          "sourceVideoIds": ["yR5o-7ULWls", "W-Sx_9QElfw"]
+        },
+        {
+          "id": "st-019",
+          "order": 19,
+          "question": "Why is a brokerage account not the same as a bank account?",
+          "answer": "A brokerage is where you place orders to buy/sell investments. Money and investments there face market risk — it is not the same as FDIC-insured cash rules (varies by country and product).",
+          "example": "Bank vault for cash vs. workshop where you build a bookshelf — different tools, different risks.",
+          "sourceVideoIds": ["bb6_M_srMBk", "B1EuS1QnF8c"]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "levelId": "intermediate",
+      "levelTitle": "Level 3 — Intermediate",
+      "levelSummary": "Sectors, volatility, picking themes, and thinking about what “expensive” means.",
+      "items": [
+        {
+          "id": "st-020",
+          "order": 20,
+          "question": "What is a stock sector?",
+          "answer": "A label that groups similar businesses — technology, health care, finance, energy, and so on.",
+          "example": "Mall map: “food court,” “fashion,” “electronics.” Sectors sort companies by what they mainly do.",
+          "sourceVideoIds": ["QrXysBLjkGA", "-jSYkNsGwcc"]
+        },
+        {
+          "id": "st-021",
+          "order": 21,
+          "question": "What is volatility?",
+          "answer": "How wildly prices bounce up and down. High volatility means bigger mood swings on the chart.",
+          "example": "A calm bus ride vs. a jet coaster — both get you somewhere, but one jolts you more.",
+          "sourceVideoIds": ["9AL41xON3hA", "oKlhUSSHe2Q"]
+        },
+        {
+          "id": "st-022",
+          "order": 22,
+          "question": "What is the P/E ratio, in kid-friendly terms?",
+          "answer": "Price divided by yearly earnings per share — a rough “how many years of profit am I paying for?” shortcut. It is not perfect, but it helps compare similar companies.",
+          "example": "If a lemonade stand earns $10 a year and someone pays $100 for it, that is like a P/E of 10 — very rough math.",
+          "sourceVideoIds": ["W-Sx_9QElfw"]
+        },
+        {
+          "id": "st-023",
+          "order": 23,
+          "question": "Why might a “hot stock list” still be a bad match for you?",
+          "answer": "Because your goals, timeline, and nerves matter. A stock can be exciting and still too risky for your situation.",
+          "example": "A race car is awesome — not everyone should daily-drive it to school.",
+          "sourceVideoIds": ["QrXysBLjkGA", "qJ2PinX8Fi0"]
+        },
+        {
+          "id": "st-024",
+          "order": 24,
+          "question": "What is dollar-cost averaging (simple idea)?",
+          "answer": "Investing a fixed amount on a schedule so you sometimes buy high and sometimes low — smoothing out the urge to time the market perfectly.",
+          "example": "Buying one pizza slice every Friday: some weeks it is on sale, some weeks full price — average evens out.",
+          "sourceVideoIds": ["mCyIt_i-WTk", "yR5o-7ULWls"]
+        },
+        {
+          "id": "st-025",
+          "order": 25,
+          "question": "What is a dividend (basic definition)?",
+          "answer": "Cash some companies pay shareholders from profits, usually on a schedule. Not all companies pay dividends.",
+          "example": "A club shares some snack money with members when the year goes well.",
+          "sourceVideoIds": ["W-Sx_9QElfw", "88ghYAnJTTs"]
+        },
+        {
+          "id": "st-026",
+          "order": 26,
+          "question": "Why is comparing yourself to influencers dangerous in investing?",
+          "answer": "You rarely see their full picture — losses, debt, or sponsorships. Your race is your timeline and budget.",
+          "example": "Comparing your first 5K run to someone’s edited highlight reel.",
+          "sourceVideoIds": ["27cXk34t1gI", "_xpFc_x0OwA"]
+        },
+        {
+          "id": "st-027",
+          "order": 27,
+          "question": "What does “market cap” mean?",
+          "answer": "Roughly: share price × shares outstanding. It estimates the total value the market puts on the whole company.",
+          "example": "If 1 million shares exist at $20 each, market cap is about $20 million — a yardstick for size, not guaranteed truth.",
+          "sourceVideoIds": ["QrXysBLjkGA"]
+        },
+        {
+          "id": "st-028",
+          "order": 28,
+          "question": "Why read both bull and bear arguments before buying?",
+          "answer": "So you understand what could go wrong, not only the hype story. Good decisions weigh upside and downside.",
+          "example": "Buying a phone: read 5-star and 1-star reviews, not only the ad.",
+          "sourceVideoIds": ["W-Sx_9QElfw", "-H_7wdr6Les"]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "levelId": "advanced",
+      "levelTitle": "Level 4 — Advanced / pro topics",
+      "levelSummary": "Day trading, strategy discipline, risk/reward, and why most short-term traders struggle.",
+      "items": [
+        {
+          "id": "st-029",
+          "order": 29,
+          "question": "What is day trading in one line?",
+          "answer": "Opening and closing trades within the same day (often many times) to try to profit from short price moves — very different from long-term investing.",
+          "example": "Surfing one wave all morning vs. sailing across an ocean — different sport, different injuries.",
+          "sourceVideoIds": ["oKlhUSSHe2Q", "B1EuS1QnF8c"]
+        },
+        {
+          "id": "st-030",
+          "order": 30,
+          "question": "Why do educators say most day traders should expect a steep learning curve?",
+          "answer": "Because short-term prices are noisy, fees add up, emotions spike, and luck can fool you until it stops.",
+          "example": "Winning a few carnival games does not mean you own the carnival.",
+          "sourceVideoIds": ["oKlhUSSHe2Q", "5heIIjp0hP8"]
+        },
+        {
+          "id": "st-031",
+          "order": 31,
+          "question": "What is a stop-loss (simple idea)?",
+          "answer": "An order to exit a trade near a chosen price to cap how much you lose if the market moves against you. It does not guarantee a fill at exactly that price in fast markets.",
+          "example": "Seatbelt: it does not prevent every injury, but it limits how bad the crash can get.",
+          "sourceVideoIds": ["E3McKlAp3qk", "9AL41xON3hA"]
+        },
+        {
+          "id": "st-032",
+          "order": 32,
+          "question": "What is risk/reward ratio in trading talk?",
+          "answer": "Comparing how much you might lose on a trade to how much you hope to gain. Pros often talk about small, controlled losses and bigger planned wins — but real life is messy.",
+          "example": "Betting $1 to try to win $2 is different from betting $10 to win $1.",
+          "sourceVideoIds": ["E3McKlAp3qk", "9AL41xON3hA"]
+        },
+        {
+          "id": "st-033",
+          "order": 33,
+          "question": "What is backtesting?",
+          "answer": "Running a strategy on past charts/data to see how it would have performed. Useful to learn mechanics — but the future is not a replay of the past.",
+          "example": "Practicing a play against old game tape: helpful drill, not a promise of next Friday’s game.",
+          "sourceVideoIds": ["E3McKlAp3qk"]
+        },
+        {
+          "id": "st-034",
+          "order": 34,
+          "question": "Why can “more screen time” hurt traders?",
+          "answer": "Overtrading, revenge trades after losses, and ignoring a plan. Rules and breaks matter.",
+          "example": "Studying 16 hours straight before a test — tired brains make sloppy mistakes.",
+          "sourceVideoIds": ["5heIIjp0hP8", "9AL41xON3hA"]
+        },
+        {
+          "id": "st-035",
+          "order": 35,
+          "question": "What is a fair takeaway from long-term investing teachers like the “15 minutes of lessons” style videos?",
+          "answer": "Principles repeat: patience, understanding the business, managing emotions, and avoiding arrogance after wins.",
+          "example": "Great coaches repeat basics — layups, breathing, footwork — not because pros are dumb, because discipline beats tricks.",
+          "sourceVideoIds": ["27cXk34t1gI", "W-Sx_9QElfw"]
+        },
+        {
+          "id": "st-036",
+          "order": 36,
+          "question": "If you remember only three rules before risking real money, what should they be?",
+          "answer": "(1) Never use money you need for bills soon. (2) Understand what you buy. (3) Know that you can lose — so size your bets and sleep at night.",
+          "example": "Helmet, lights, brakes — before a night bike ride. Boring saves you.",
+          "sourceVideoIds": ["mCyIt_i-WTk", "bb6_M_srMBk", "oKlhUSSHe2Q"]
+        }
+      ]
+    }
+  ]
+}

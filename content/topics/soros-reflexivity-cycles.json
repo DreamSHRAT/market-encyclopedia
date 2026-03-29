@@ -1,0 +1,83 @@
+{
+  "id": "soros-reflexivity-cycles",
+  "title": "Reflexivity & pivotal points (big-picture ideas)",
+  "tags": ["Soros", "Livermore", "reflexivity", "trends"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "Reflexivity (Soros) roughly means:",
+      "choices": [
+        "Participants’ beliefs and actions can influence fundamentals — feedback loops exist",
+        "Prices always equal value perfectly",
+        "Only bonds reflex"
+      ],
+      "correctIndex": 0,
+      "hint": "Perception can change reality in markets."
+    },
+    {
+      "prompt": "Pyramiding in the classic sense means:",
+      "choices": [
+        "Adding to winning positions within rules — not averaging down losers blindly",
+        "Doubling down on every loss",
+        "Only buying ETFs"
+      ],
+      "correctIndex": 0,
+      "hint": "Winners ride; losers get cut in many professional playbooks."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Loops",
+      "body": "Optimism can fuel investment, which lifts fundamentals, which fuels optimism — until something breaks. The loop can reverse hard.",
+      "visual": "none"
+    },
+    {
+      "title": "Pivotal points (Livermore idea)",
+      "body": "Key levels where a trend proves or fails. Traders wait for the market to confirm — they don’t predict every wiggle.",
+      "visual": "none"
+    },
+    {
+      "title": "Add to winners carefully",
+      "body": "If you add size, many pros do it when the market proves them right — not to fix a losing trade.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "Feedback loops matter. Pivotal points discipline entries and exits. Pyramiding favors winners — not hope.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "Reflexivity challenges which pure theory most directly?",
+      "choices": [
+        "That markets always instantly reflect all fundamentals perfectly",
+        "That stocks have tickers",
+        "That earnings exist"
+      ],
+      "correctIndex": 0,
+      "explanation": "Feedback loops can move prices and fundamentals together."
+    },
+    {
+      "prompt": "Averaging down on a losing stock without a new thesis often:",
+      "choices": [
+        "Conflicts with “add to winners” discipline — risk can snowball",
+        "Is always optimal",
+        "Eliminates volatility"
+      ],
+      "correctIndex": 0,
+      "explanation": "Many pros cut losers and add to strength."
+    },
+    {
+      "prompt": "A pivotal point is best used as:",
+      "choices": [
+        "A place where the market’s behavior confirms or breaks your plan",
+        "A guaranteed profit level",
+        "A tax form"
+      ],
+      "correctIndex": 0,
+      "explanation": "It’s a decision zone, not a promise."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

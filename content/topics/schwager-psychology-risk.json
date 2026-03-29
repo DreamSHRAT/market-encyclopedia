@@ -1,0 +1,83 @@
+{
+  "id": "schwager-psychology-risk",
+  "title": "Wizards: risk first, ego last",
+  "tags": ["Schwager", "risk", "psychology", "discipline"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "Many traders in the Wizards interviews cap risk per trade near:",
+      "choices": [
+        "A small slice of equity (often discussed around ~1–2% per trade as a ballpark idea)",
+        "100% of the account every time",
+        "Zero — risk is irrelevant"
+      ],
+      "correctIndex": 0,
+      "hint": "Survival is the prerequisite for edge to matter."
+    },
+    {
+      "prompt": "After three losses, “doubling size to get even” mainly violates:",
+      "choices": [
+        "Emotional discipline and sound risk management",
+        "The law of gravity only",
+        "Dividend reinvestment"
+      ],
+      "correctIndex": 0,
+      "hint": "Revenge trading is a classic failure mode."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Edge without survival is zero",
+      "body": "A good method is useless if one bad streak wipes you out. Position size and max loss rules keep you in the game.",
+      "visual": "none"
+    },
+    {
+      "title": "Doing nothing is a skill",
+      "body": "When there’s no setup, pros often wait. Sideways markets reward patience more than activity.",
+      "visual": "none"
+    },
+    {
+      "title": "One methodology",
+      "body": "Jumping between systems mid-stream destroys feedback. Master one playbook before collecting more.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "Small risk per trade, no revenge sizing, patience when there’s no edge, and consistency in your process — the boring stuff that lets winners matter.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "Risking a large fraction of equity on one trade is dangerous mainly because:",
+      "choices": [
+        "A few bad outcomes can destroy the account",
+        "Brokers reward it",
+        "Taxes disappear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Drawdown math is brutal; survival first."
+    },
+    {
+      "prompt": "After a losing streak, the disciplined response is often:",
+      "choices": [
+        "Return to rules, reduce size if needed, and avoid revenge trades",
+        "Double leverage automatically",
+        "Quit investing forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "Process over emotion."
+    },
+    {
+      "prompt": "“Methodology consistency” means:",
+      "choices": [
+        "Enough reps with one system to know what works and what doesn’t",
+        "Never changing a rule even when wrong",
+        "Only trading stocks under $5"
+      ],
+      "correctIndex": 0,
+      "explanation": "You need clean data from a stable process to improve."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

@@ -1,0 +1,119 @@
+{
+  "id": "stock-teach-intermediate",
+  "title": "Foundations: Intermediate",
+  "tags": [
+    "stock-teaching",
+    "intermediate",
+    "basics"
+  ],
+  "diagnosticQuestions": [
+    {
+      "prompt": "What is a stock sector?",
+      "choices": [
+        "Price divided by yearly earnings per share — a rough “how many years of profit am I paying for?” shortcut. It is not perfect, but it helps compare similar companies.",
+        "How wildly prices bounce up and down. High volatility means bigger mood swings on the chart.",
+        "A label that groups similar businesses — technology, health care, finance, energy, and so on."
+      ],
+      "correctIndex": 2,
+      "hint": "Pick the answer that matches the plain-language idea from the lesson.",
+      "explanation": "A label that groups similar businesses — technology, health care, finance, energy, and so on."
+    },
+    {
+      "prompt": "What is volatility?",
+      "choices": [
+        "Because your goals, timeline, and nerves matter. A stock can be exciting and still too risky for your situation.",
+        "How wildly prices bounce up and down. High volatility means bigger mood swings on the chart.",
+        "Price divided by yearly earnings per share — a rough “how many years of profit am I paying for?” shortcut. It is not perfect, but it helps compare similar companies."
+      ],
+      "correctIndex": 1,
+      "hint": "Pick the answer that matches the plain-language idea from the lesson.",
+      "explanation": "How wildly prices bounce up and down. High volatility means bigger mood swings on the chart."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "What is a stock sector?",
+      "body": "A label that groups similar businesses — technology, health care, finance, energy, and so on.\n\n**Example:** Mall map: “food court,” “fashion,” “electronics.” Sectors sort companies by what they mainly do.",
+      "visual": "none"
+    },
+    {
+      "title": "What is volatility?",
+      "body": "How wildly prices bounce up and down. High volatility means bigger mood swings on the chart.\n\n**Example:** A calm bus ride vs. a jet coaster — both get you somewhere, but one jolts you more.",
+      "visual": "none"
+    },
+    {
+      "title": "What is the P/E ratio, in kid-friendly terms?",
+      "body": "Price divided by yearly earnings per share — a rough “how many years of profit am I paying for?” shortcut. It is not perfect, but it helps compare similar companies.\n\n**Example:** If a lemonade stand earns $10 a year and someone pays $100 for it, that is like a P/E of 10 — very rough math.",
+      "visual": "none"
+    },
+    {
+      "title": "Why might a “hot stock list” still be a bad match for you?",
+      "body": "Because your goals, timeline, and nerves matter. A stock can be exciting and still too risky for your situation.\n\n**Example:** A race car is awesome — not everyone should daily-drive it to school.",
+      "visual": "none"
+    },
+    {
+      "title": "What is dollar-cost averaging (simple idea)?",
+      "body": "Investing a fixed amount on a schedule so you sometimes buy high and sometimes low — smoothing out the urge to time the market perfectly.\n\n**Example:** Buying one pizza slice every Friday: some weeks it is on sale, some weeks full price — average evens out.",
+      "visual": "none"
+    },
+    {
+      "title": "What is a dividend (basic definition)?",
+      "body": "Cash some companies pay shareholders from profits, usually on a schedule. Not all companies pay dividends.\n\n**Example:** A club shares some snack money with members when the year goes well.",
+      "visual": "none"
+    },
+    {
+      "title": "Why is comparing yourself to influencers dangerous in investing?",
+      "body": "You rarely see their full picture — losses, debt, or sponsorships. Your race is your timeline and budget.\n\n**Example:** Comparing your first 5K run to someone’s edited highlight reel.",
+      "visual": "none"
+    },
+    {
+      "title": "What does “market cap” mean?",
+      "body": "Roughly: share price × shares outstanding. It estimates the total value the market puts on the whole company.\n\n**Example:** If 1 million shares exist at $20 each, market cap is about $20 million — a yardstick for size, not guaranteed truth.",
+      "visual": "none"
+    },
+    {
+      "title": "Why read both bull and bear arguments before buying?",
+      "body": "So you understand what could go wrong, not only the hype story. Good decisions weigh upside and downside.\n\n**Example:** Buying a phone: read 5-star and 1-star reviews, not only the ad.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "⚡ Level 3 — Intermediate",
+    "body": "Sectors, volatility, picking themes, and thinking about what “expensive” means.\n\nStart with the first card anytime you need a reset.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "Why is comparing yourself to influencers dangerous in investing?",
+      "choices": [
+        "So you understand what could go wrong, not only the hype story. Good decisions weigh upside and downside.",
+        "Roughly: share price × shares outstanding. It estimates the total value the market puts on the whole company.",
+        "You rarely see their full picture — losses, debt, or sponsorships. Your race is your timeline and budget."
+      ],
+      "correctIndex": 2,
+      "explanation": "You rarely see their full picture — losses, debt, or sponsorships. Your race is your timeline and budget."
+    },
+    {
+      "prompt": "What does “market cap” mean?",
+      "choices": [
+        "A label that groups similar businesses — technology, health care, finance, energy, and so on.",
+        "Roughly: share price × shares outstanding. It estimates the total value the market puts on the whole company.",
+        "So you understand what could go wrong, not only the hype story. Good decisions weigh upside and downside."
+      ],
+      "correctIndex": 1,
+      "explanation": "Roughly: share price × shares outstanding. It estimates the total value the market puts on the whole company."
+    },
+    {
+      "prompt": "Why read both bull and bear arguments before buying?",
+      "choices": [
+        "How wildly prices bounce up and down. High volatility means bigger mood swings on the chart.",
+        "So you understand what could go wrong, not only the hype story. Good decisions weigh upside and downside.",
+        "A label that groups similar businesses — technology, health care, finance, energy, and so on."
+      ],
+      "correctIndex": 1,
+      "explanation": "So you understand what could go wrong, not only the hype story. Good decisions weigh upside and downside."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

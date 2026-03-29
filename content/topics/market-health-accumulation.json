@@ -1,0 +1,83 @@
+{
+  "id": "market-health-accumulation",
+  "title": "Market mood: accumulation vs distribution (idea)",
+  "tags": ["market", "breadth", "risk"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "In simple terms, “distribution” often suggests:",
+      "choices": [
+        "Large investors may be net selling into strength — a potential caution flag",
+        "The market is always safe",
+        "Dividends are automatic"
+      ],
+      "correctIndex": 0,
+      "hint": "Think handing shares from strong hands to weaker hands — a classic framing."
+    },
+    {
+      "prompt": "“Accumulation” often suggests:",
+      "choices": [
+        "Buying interest may be building during a constructive phase",
+        "The market must crash tomorrow",
+        "Only bonds trade"
+      ],
+      "correctIndex": 0,
+      "hint": "Absorbing supply — a possible foundation for uptrends (not a guarantee)."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "The big picture filter",
+      "body": "Many investors check whether the broad market is in an uptrend, under pressure, or in a correction. Your stock’s setup can fail if the tide turns.",
+      "visual": "none"
+    },
+    {
+      "title": "Follow-through (concept)",
+      "body": "Some methods look for a strong follow-through day after a bottoming attempt to suggest risk-on may be justified. Rules vary — learn one system fully.",
+      "visual": "none"
+    },
+    {
+      "title": "Not timing advice",
+      "body": "These are lenses for risk control, not crystal balls. Combine with your own rules and position size.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "Accumulation vs distribution are ways to talk about whether large participation is net building or net selling — use as context, not prophecy.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "Why care about overall market health?",
+      "choices": [
+        "Individual stocks can be dragged by the tide",
+        "It removes all risk",
+        "It replaces fundamental analysis entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Broad pressure can hurt even good setups."
+    },
+    {
+      "prompt": "A follow-through day in the common O’Neil-style story is used to:",
+      "choices": [
+        "Help signal that a rally attempt may be gaining credibility (per that method)",
+        "Guarantee a bull market",
+        "Set dividend payments"
+      ],
+      "correctIndex": 0,
+      "explanation": "It’s one checkpoint in a larger market-direction toolkit."
+    },
+    {
+      "prompt": "Distribution days are often interpreted as:",
+      "choices": [
+        "Possible signs of selling into strength — worth noting as a caution input",
+        "Proof of manipulation",
+        "Irrelevant to risk"
+      ],
+      "correctIndex": 0,
+      "explanation": "They count selling pressure in context — not a single switch."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

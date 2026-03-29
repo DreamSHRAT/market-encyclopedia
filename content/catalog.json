@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "id": "stock-foundations",
+      "title": "Stock foundations",
+      "description": "Plain Q&A path from your Stock Teaching app — beginner → advanced (imported curriculum)."
+    },
+    {
+      "id": "chart-literacy",
+      "title": "Charts & market context",
+      "description": "Read price, patterns, and the broad tape before layering strategies."
+    },
+    {
+      "id": "wizard-playbook",
+      "title": "Wizard playbook",
+      "description": "CAN SLIM, Darvas, Lynch, psychology, math, reflexivity, and risk cuts — concepts from classic frameworks (educational summaries)."
+    },
+    {
+      "id": "options",
+      "title": "Options",
+      "description": "Contracts: rights to buy or sell at a strike before expiry."
+    }
+  ],
+  "lessons": [
+    { "id": "stock-teach-beginner", "categoryId": "stock-foundations", "order": 1, "pathOrder": 1 },
+    { "id": "stock-teach-building", "categoryId": "stock-foundations", "order": 2, "pathOrder": 2 },
+    { "id": "stock-teach-intermediate", "categoryId": "stock-foundations", "order": 3, "pathOrder": 3 },
+    { "id": "stock-teach-advanced", "categoryId": "stock-foundations", "order": 4, "pathOrder": 4 },
+    { "id": "candles-01-one-bar", "categoryId": "chart-literacy", "order": 1, "pathOrder": 5 },
+    { "id": "candles-02-bull-bear", "categoryId": "chart-literacy", "order": 2, "pathOrder": 6 },
+    { "id": "chart-patterns-basics", "categoryId": "chart-literacy", "order": 3, "pathOrder": 7 },
+    { "id": "market-health-accumulation", "categoryId": "chart-literacy", "order": 4, "pathOrder": 8 },
+    { "id": "can-slim-overview", "categoryId": "wizard-playbook", "order": 1, "pathOrder": 9 },
+    { "id": "darvas-box-theory", "categoryId": "wizard-playbook", "order": 2, "pathOrder": 10 },
+    { "id": "lynch-garp-basics", "categoryId": "wizard-playbook", "order": 3, "pathOrder": 11 },
+    { "id": "schwager-psychology-risk", "categoryId": "wizard-playbook", "order": 4, "pathOrder": 12 },
+    { "id": "paulos-math-myths", "categoryId": "wizard-playbook", "order": 5, "pathOrder": 13 },
+    { "id": "soros-reflexivity-cycles", "categoryId": "wizard-playbook", "order": 6, "pathOrder": 14 },
+    { "id": "risk-stops-seven-eight", "categoryId": "wizard-playbook", "order": 7, "pathOrder": 15 },
+    { "id": "options-01-contract", "categoryId": "options", "order": 1, "pathOrder": 16 },
+    { "id": "options-02-calls", "categoryId": "options", "order": 2, "pathOrder": 17 },
+    { "id": "options-03-puts", "categoryId": "options", "order": 3, "pathOrder": 18 }
+  ]
+}

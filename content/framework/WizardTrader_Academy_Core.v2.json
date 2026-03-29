@@ -1,0 +1,88 @@
+{
+  "project": "WizardTrader_Academy_Core",
+  "data_version": "2.0",
+  "educational_framework": {
+    "teaching_logic": "Chronological Evolution of Strategy",
+    "testing_logic": "Scenario-Based Proficiency Checks"
+  },
+  "library_integration": [
+    {
+      "source": "How to Make Money in Stocks / 24 Essential Lessons (William O'Neil)",
+      "core_concept": "CAN SLIM System",
+      "curriculum_points": [
+        "C: Current Earnings (Minimum 18-20% increase)",
+        "A: Annual Earnings (25% growth over 3 years)",
+        "N: New (Product, Management, or Price Highs)",
+        "S: Supply and Demand (Volume at breakout)",
+        "L: Leader or Laggard (Relative Strength Index > 80)",
+        "I: Institutional Sponsorship (Look for 'Smart Money')",
+        "M: Market Direction (Identifying follow-through days)"
+      ],
+      "test_scenario": "User is shown a chart with 10% earnings growth and an RSI of 40. Question: Does this meet CAN SLIM criteria? (Answer: No)."
+    },
+    {
+      "source": "How I Made $2 Million in the Stock Market (Nicolas Darvas)",
+      "core_concept": "The Box Theory & Techno-Fundamentalism",
+      "curriculum_points": [
+        "Price Boxes: Defining clear ceilings and floors",
+        "The Ghost Stop: Trailing stop-loss logic",
+        "Volume spikes as 'Price Igniters'",
+        "Ignoring 'Street Rumors' in favor of price action"
+      ],
+      "test_scenario": "A stock breaks out of a $50-$55 box to $56 but volume is lower than average. Is this a buy? (Answer: No, lacks volume confirmation)."
+    },
+    {
+      "source": "Beating the Street (Peter Lynch)",
+      "core_concept": "Growth at a Reasonable Price (GARP)",
+      "curriculum_points": [
+        "The 'Local Advantage': Investing in what you see and use",
+        "Categorization: Slow Growers, Stalwarts, Fast Growers, Cyclicals, Turnarounds, and Asset Plays",
+        "The PEG Ratio: Price/Earnings to Growth consistency"
+      ],
+      "test_scenario": "Identify if a company with a P/E of 20 and a growth rate of 5% is a 'Lynch Buy'. (Answer: No, P/E exceeds growth rate)."
+    },
+    {
+      "source": "Stock Market Wizards (Jack Schwager)",
+      "core_concept": "The Psychology of Winning",
+      "curriculum_points": [
+        "Risk Control: Never risking more than 1-2% of total equity on one trade",
+        "Emotional Discipline: The ability to do nothing when the market is sideways",
+        "Methodology Consistency: Sticking to one 'edge'"
+      ],
+      "test_scenario": "A user has lost 3 trades in a row and wants to double their position to 'get even'. Which Wizard principle is being violated? (Answer: Risk Management/Emotional Discipline)."
+    },
+    {
+      "source": "A Mathematician Plays the Stock Market (John Allen Paulos)",
+      "core_concept": "Mathematical Literacy & Myths",
+      "curriculum_points": [
+        "The Gambler's Fallacy in trading",
+        "Understanding Expected Value vs. Winning Percentage",
+        "The Random Walk Hypothesis vs. Technical Analysis"
+      ]
+    },
+    {
+      "source": "Lessons from the Greatest Stock Traders / Soros Biography",
+      "core_concept": "Reflexivity and Market Cycles",
+      "curriculum_points": [
+        "George Soros's Reflexivity: How bias affects fundamentals",
+        "Jesse Livermore's 'Pivotal Points'",
+        "Pyramiding: Adding to winners, never to losers"
+      ]
+    }
+  ],
+  "global_app_logic": {
+    "universal_sell_rule": "The 7-8% Stop-Loss (O'Neil/Darvas standard)",
+    "market_health_indicator": "Distribution Days vs. Accumulation Days",
+    "chart_patterns": [
+      "Cup with Handle",
+      "Double Bottom",
+      "Flat Base",
+      "Ascending Base"
+    ]
+  },
+  "database_schema_hints": {
+    "Table_Lessons": ["id", "wizard_name", "category", "content_markdown", "difficulty_level"],
+    "Table_Quizzes": ["id", "lesson_id", "question_text", "options_json", "correct_answer_index", "logic_explanation"],
+    "Table_UserStats": ["user_id", "mastery_score", "current_streak", "weak_areas_tags"]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "options-01-contract",
+  "title": "What is an option, in plain English?",
+  "tags": ["options", "contract", "basics"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "An option contract is best described as:",
+      "choices": [
+        "A loan from the bank",
+        "An agreement that gives the right (not always the obligation) to buy or sell something at a set price before expiry",
+        "A guarantee of profit"
+      ],
+      "correctIndex": 1,
+      "hint": "Rights and deadlines — not forced ownership unless you choose certain strategies."
+    },
+    {
+      "prompt": "Standard stock options in the U.S. usually control:",
+      "choices": [
+        "1 share",
+        "100 shares per contract (check your market — rules vary)",
+        "The whole company"
+      ],
+      "correctIndex": 1,
+      "hint": "Retail equity options are often quoted per share but traded in a standard size."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "A ticket with an expiry date",
+      "body": "An option is a contract tied to an underlying (like a stock). It has a strike price, an expiration date, and a premium you pay or collect. Think: you’re buying or selling a set of rules, not the stock itself — unless exercise happens.",
+      "visual": "option-contract"
+    },
+    {
+      "title": "Calls vs puts (preview)",
+      "body": "Calls lean toward “right to buy.” Puts lean toward “right to sell.” Next lessons zoom in — for now, remember: same building blocks (underlying, strike, expiry, premium).",
+      "visual": "option-contract"
+    },
+    {
+      "title": "Risk is real",
+      "body": "Options can expire worthless. Some strategies have defined risk; others (like selling naked calls) can be extremely dangerous. This app teaches concepts — not a recommendation to trade them.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap: the wrapper",
+    "body": "Option = contract with underlying, strike, expiry, premium. US equity options are often 100 shares per contract. Calls and puts are different rights — we’ll separate them in the next cards.",
+    "visual": "option-contract"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "The price you pay for the option contract is usually called:",
+      "choices": ["Dividend", "Premium", "Mortgage"],
+      "correctIndex": 1,
+      "explanation": "Premium is the market price of the contract itself."
+    },
+    {
+      "prompt": "A listed equity option contract in the U.S. typically represents:",
+      "choices": [
+        "100 shares of the underlying (verify for your market)",
+        "1 share always",
+        "Gold bars"
+      ],
+      "correctIndex": 0,
+      "explanation": "US standard is 100 shares per contract; always confirm locally."
+    },
+    {
+      "prompt": "Buying an option to open often means:",
+      "choices": [
+        "You pay premium and receive rights defined by the contract",
+        "You automatically own the stock forever",
+        "You cannot lose money"
+      ],
+      "correctIndex": 0,
+      "explanation": "You pay for the contract; risk is often limited to premium for long options (plus fees)."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

@@ -1,0 +1,32 @@
+{
+  "id": "topic-slug-level-1",
+  "title": "Human title (e.g. Candlesticks: one bar)",
+  "tags": ["candles", "basics"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "What does one candle usually show?",
+      "choices": [
+        "Only the closing price",
+        "Open, high, low, and close for that time window",
+        "Tomorrow’s price"
+      ],
+      "correctIndex": 1,
+      "hint": "Think of one snapshot of a race: start, best moment, worst moment, finish."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Picture one day of trading",
+      "body": "Imagine a stick of candy. The thick part is where most trading happened between open and close. The thin sticks show the highest and lowest prices that day.",
+      "visual": "candle"
+    }
+  ],
+  "masteryQuestions": [
+    {
+      "prompt": "The thick part of the candle is mostly about:",
+      "choices": ["Volume only", "Open vs close (the body)", "The company CEO"],
+      "correctIndex": 1,
+      "explanation": "The body connects open and close; wicks show the extremes."
+    }
+  ]
+}

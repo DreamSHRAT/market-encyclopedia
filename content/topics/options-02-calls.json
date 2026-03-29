@@ -1,0 +1,83 @@
+{
+  "id": "options-02-calls",
+  "title": "Calls: the right to buy",
+  "tags": ["options", "calls", "rights"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "A call option gives the owner the right to:",
+      "choices": [
+        "Buy the underlying at the strike price (before expiry, for American-style)",
+        "Force the company to hire you",
+        "Receive fixed bond coupons"
+      ],
+      "correctIndex": 0,
+      "hint": "Call sounds like “call it in” — acquire at the strike if it makes sense."
+    },
+    {
+      "prompt": "If the stock is far below your strike at expiry, a long call typically:",
+      "choices": [
+        "Turns into a house",
+        "Expires worthless (you lose the premium you paid, plus fees)",
+        "Automatically doubles your shares"
+      ],
+      "correctIndex": 1,
+      "hint": "Out-of-the-money at expiry: no exercise value for a simple long call."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Call = optional shopping ticket",
+      "body": "You pay premium for the right to buy the stock at the strike until expiry. If the market price is way higher than strike, your right is valuable. If not, you may let it expire.",
+      "visual": "call-payoff"
+    },
+    {
+      "title": "Who’s on the other side?",
+      "body": "Someone sold that call. They collected premium upfront. Their risk/reward is different from yours — covered vs naked matters a lot. Covered call = own stock, sell call against it (caps upside).",
+      "visual": "call-payoff"
+    },
+    {
+      "title": "Not advice — a picture",
+      "body": "Long call: often risk limited to premium. Selling calls without protection can be catastrophic if the stock rockets. Learn the payoff shapes before sizing real trades.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap: calls",
+    "body": "Long call = pay premium, get the right to buy at strike (American-style: before expiry). If expiry arrives out-of-the-money, the option may be worthless. Sellers have different risk — especially naked.",
+    "visual": "call-payoff"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "A long call buyer’s maximum loss is often (ignoring fees, in simple terms):",
+      "choices": [
+        "Unlimited",
+        "The premium paid for the contract",
+        "The full value of the company"
+      ],
+      "correctIndex": 1,
+      "explanation": "You can lose what you paid for the option if it expires worthless."
+    },
+    {
+      "prompt": "A covered call typically involves:",
+      "choices": [
+        "Owning the underlying shares and selling a call against them",
+        "Borrowing without collateral",
+        "Buying only bonds"
+      ],
+      "correctIndex": 0,
+      "explanation": "You sell call premium while holding stock; upside may be capped at the strike."
+    },
+    {
+      "prompt": "Intrinsic value for a call (simplified) relates to:",
+      "choices": [
+        "How much the stock is above the strike (when positive), before time value",
+        "Your favorite color",
+        "The CEO’s age"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roughly max(0, spot − strike) for the underlying per share — then add time/extrinsic value for the option price."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

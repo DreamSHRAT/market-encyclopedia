@@ -1,0 +1,119 @@
+{
+  "id": "stock-teach-building",
+  "title": "Foundations: Building blocks",
+  "tags": [
+    "stock-teaching",
+    "building",
+    "basics"
+  ],
+  "diagnosticQuestions": [
+    {
+      "prompt": "What is an index, like the S&P 500, in plain English?",
+      "choices": [
+        "Your money earns returns, and then those returns can earn returns too — like a snowball picking up more snow as it rolls.",
+        "Because time lets compounding (growth on growth) work. Starting late means you miss years of potential snowballing.",
+        "A scoreboard that tracks a big group of companies. The S&P 500 follows roughly 500 large U.S. companies — not one stock, a whole basket."
+      ],
+      "correctIndex": 2,
+      "hint": "Pick the answer that matches the plain-language idea from the lesson.",
+      "explanation": "A scoreboard that tracks a big group of companies. The S&P 500 follows roughly 500 large U.S. companies — not one stock, a whole basket."
+    },
+    {
+      "prompt": "What is an ETF (simple version)?",
+      "choices": [
+        "Because fear and greed make people sell low after drops or chase hype at the top. Staying calm is a skill.",
+        "Your money earns returns, and then those returns can earn returns too — like a snowball picking up more snow as it rolls.",
+        "A fund you can buy and sell like a stock, which usually holds many companies or bonds inside one ticker — a handy way to diversify."
+      ],
+      "correctIndex": 2,
+      "hint": "Pick the answer that matches the plain-language idea from the lesson.",
+      "explanation": "A fund you can buy and sell like a stock, which usually holds many companies or bonds inside one ticker — a handy way to diversify."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "What is an index, like the S&P 500, in plain English?",
+      "body": "A scoreboard that tracks a big group of companies. The S&P 500 follows roughly 500 large U.S. companies — not one stock, a whole basket.\n\n**Example:** Instead of grading one student, you average the grades of 500 students to see how “the whole grade” is doing.",
+      "visual": "none"
+    },
+    {
+      "title": "What is an ETF (simple version)?",
+      "body": "A fund you can buy and sell like a stock, which usually holds many companies or bonds inside one ticker — a handy way to diversify.\n\n**Example:** A smoothie: many fruits blended together. One cup, many ingredients.",
+      "visual": "none"
+    },
+    {
+      "title": "What is diversification?",
+      "body": "Not putting all your money in one company or one bet. If one part struggles, other parts can balance the ride.\n\n**Example:** A sports team: one injured player hurts less if the rest of the roster is strong.",
+      "visual": "none"
+    },
+    {
+      "title": "Why does starting earlier often matter more than the exact stock you pick?",
+      "body": "Because time lets compounding (growth on growth) work. Starting late means you miss years of potential snowballing.\n\n**Example:** Two snowballs rolling downhill: the one that starts higher on the hill ends much bigger, even with the same snow.",
+      "visual": "none"
+    },
+    {
+      "title": "What is compound growth in one picture?",
+      "body": "Your money earns returns, and then those returns can earn returns too — like a snowball picking up more snow as it rolls.\n\n**Example:** $100 grows 8% to $108. Next year 8% applies to $108, not just the original $100.",
+      "visual": "none"
+    },
+    {
+      "title": "Why do many teachers say “investing is emotional,” not just math?",
+      "body": "Because fear and greed make people sell low after drops or chase hype at the top. Staying calm is a skill.\n\n**Example:** Panic-selling after a bad quiz can make you quit school; zooming out helps you recover and learn.",
+      "visual": "none"
+    },
+    {
+      "title": "What is a simple way to think about risk?",
+      "body": "The chance you lose money or sleep badly because prices swing. More possible reward often comes with more possible pain.\n\n**Example:** Roller coasters: bigger drops, bigger thrills — not everyone wants that ride with lunch money.",
+      "visual": "none"
+    },
+    {
+      "title": "What does it mean to “do your own research” (DYOR)?",
+      "body": "Read what the company does, how it makes money, and what could go wrong — instead of trusting a random caption online.\n\n**Example:** Before adopting a pet, you read about food, space, and vet costs — same idea for a stock.",
+      "visual": "none"
+    },
+    {
+      "title": "Why is a brokerage account not the same as a bank account?",
+      "body": "A brokerage is where you place orders to buy/sell investments. Money and investments there face market risk — it is not the same as FDIC-insured cash rules (varies by country and product).\n\n**Example:** Bank vault for cash vs. workshop where you build a bookshelf — different tools, different risks.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "⚡ Level 2 — Building blocks",
+    "body": "Funds, diversification, habits, and why emotions matter as much as numbers.\n\nStart with the first card anytime you need a reset.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "What is a simple way to think about risk?",
+      "choices": [
+        "A fund you can buy and sell like a stock, which usually holds many companies or bonds inside one ticker — a handy way to diversify.",
+        "A scoreboard that tracks a big group of companies. The S&P 500 follows roughly 500 large U.S. companies — not one stock, a whole basket.",
+        "The chance you lose money or sleep badly because prices swing. More possible reward often comes with more possible pain."
+      ],
+      "correctIndex": 2,
+      "explanation": "The chance you lose money or sleep badly because prices swing. More possible reward often comes with more possible pain."
+    },
+    {
+      "prompt": "What does it mean to “do your own research” (DYOR)?",
+      "choices": [
+        "Not putting all your money in one company or one bet. If one part struggles, other parts can balance the ride.",
+        "Read what the company does, how it makes money, and what could go wrong — instead of trusting a random caption online.",
+        "A fund you can buy and sell like a stock, which usually holds many companies or bonds inside one ticker — a handy way to diversify."
+      ],
+      "correctIndex": 1,
+      "explanation": "Read what the company does, how it makes money, and what could go wrong — instead of trusting a random caption online."
+    },
+    {
+      "prompt": "Why is a brokerage account not the same as a bank account?",
+      "choices": [
+        "Because time lets compounding (growth on growth) work. Starting late means you miss years of potential snowballing.",
+        "A brokerage is where you place orders to buy/sell investments. Money and investments there face market risk — it is not the same as FDIC-insured cash rules (varies by country and product).",
+        "Not putting all your money in one company or one bet. If one part struggles, other parts can balance the ride."
+      ],
+      "correctIndex": 1,
+      "explanation": "A brokerage is where you place orders to buy/sell investments. Money and investments there face market risk — it is not the same as FDIC-insured cash rules (varies by country and product)."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

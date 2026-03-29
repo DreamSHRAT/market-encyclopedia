@@ -1,0 +1,124 @@
+{
+  "id": "stock-teach-beginner",
+  "title": "Foundations: Beginner",
+  "tags": [
+    "stock-teaching",
+    "beginner",
+    "basics"
+  ],
+  "diagnosticQuestions": [
+    {
+      "prompt": "In one sentence, what is a share of stock?",
+      "choices": [
+        "A fast, scary drop in prices across many stocks. It hurts in the moment, but history shows markets have recovered after major crashes — though it can take time.",
+        "A share is a small slice of ownership in a company. If the company does well over time, your slice can become more valuable.",
+        "Because hype moves fast and emotions run hot. Beginners do better building boring basics: learn terms, diversify, think in years, and avoid gambling with money you need."
+      ],
+      "correctIndex": 1,
+      "hint": "Pick the answer that matches the plain-language idea from the lesson.",
+      "explanation": "A share is a small slice of ownership in a company. If the company does well over time, your slice can become more valuable."
+    },
+    {
+      "prompt": "Why do companies sell stock to the public?",
+      "choices": [
+        "Saving is parking money somewhere safer and steadier (like a bank account). Investing means taking risk to try to grow money over time, usually by buying assets like stocks or funds.",
+        "Because inflation can shrink what your money can buy, even if the number on your account stays the same.",
+        "They sell pieces of ownership to raise money so they can grow — hire people, build factories, invent products, or pay down debt."
+      ],
+      "correctIndex": 2,
+      "hint": "Pick the answer that matches the plain-language idea from the lesson.",
+      "explanation": "They sell pieces of ownership to raise money so they can grow — hire people, build factories, invent products, or pay down debt."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "In one sentence, what is a share of stock?",
+      "body": "A share is a small slice of ownership in a company. If the company does well over time, your slice can become more valuable.\n\n**Example:** Imagine you and nine friends open a lemonade stand and split it 10 ways. Each person’s paper slip is like one share — you own part of the business.",
+      "visual": "none"
+    },
+    {
+      "title": "Why do companies sell stock to the public?",
+      "body": "They sell pieces of ownership to raise money so they can grow — hire people, build factories, invent products, or pay down debt.\n\n**Example:** A bike company needs $1 million for a new factory. Instead of borrowing it all from a bank, it sells shares so many investors chip in.",
+      "visual": "none"
+    },
+    {
+      "title": "What does it mean that the stock market has “gone up on average” over many years?",
+      "body": "It means that, measured over long stretches (like decades), broad groups of stocks have tended to grow faster than cash sitting in a drawer — even though there are crashes along the way.\n\n**Example:** Think of a bumpy road that still climbs a hill: short parts go down (crashes), but the long trip is upward if you zoom out far enough.",
+      "visual": "none"
+    },
+    {
+      "title": "What is inflation, in simple words?",
+      "body": "Inflation is when money buys less over time because prices for food, rent, and other stuff slowly rise.\n\n**Example:** If a movie ticket was $8 last year and $9 this year, your same $8 buys less fun than before.",
+      "visual": "none"
+    },
+    {
+      "title": "Why can keeping all your savings as cash for decades be risky?",
+      "body": "Because inflation can shrink what your money can buy, even if the number on your account stays the same.\n\n**Example:** $1,000 under your mattress is still $1,000 — but years later it might only buy what $600 used to buy.",
+      "visual": "none"
+    },
+    {
+      "title": "What is the basic difference between saving and investing?",
+      "body": "Saving is parking money somewhere safer and steadier (like a bank account). Investing means taking risk to try to grow money over time, usually by buying assets like stocks or funds.\n\n**Example:** Savings account: small, steady interest. Stocks: bigger possible growth, but the value can swing up and down a lot.",
+      "visual": "none"
+    },
+    {
+      "title": "Do you need to be rich to start learning about investing?",
+      "body": "No. Many people start small and learn habits first — regular amounts, patience, and not betting money they need for rent or food.\n\n**Example:** Like practicing piano 10 minutes a day: small, steady steps beat waiting for a “perfect” moment.",
+      "visual": "none"
+    },
+    {
+      "title": "What does “long-term” usually mean for stock investing?",
+      "body": "It means measuring results in years or decades, not days — giving good companies and diversified baskets time to ride out bad years.\n\n**Example:** Planting a tree: you do not dig it up every week to check roots. You water it and wait seasons.",
+      "visual": "none"
+    },
+    {
+      "title": "What is a stock market crash?",
+      "body": "A fast, scary drop in prices across many stocks. It hurts in the moment, but history shows markets have recovered after major crashes — though it can take time.\n\n**Example:** Like a sudden thunderstorm on a hike: unpleasant, but not the same as the trail disappearing forever.",
+      "visual": "none"
+    },
+    {
+      "title": "Why is copying “whatever is hype on the internet today” a bad plan for beginners?",
+      "body": "Because hype moves fast and emotions run hot. Beginners do better building boring basics: learn terms, diversify, think in years, and avoid gambling with money you need.\n\n**Example:** Chasing a viral stock tip is like buying concert tickets from a stranger in a parking lot — sometimes fine, often a mess.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "⚡ Level 1 — Beginner",
+    "body": "What stocks are, why people invest, and how the market behaves over long periods.\n\nStart with the first card anytime you need a reset.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "What does “long-term” usually mean for stock investing?",
+      "choices": [
+        "A fast, scary drop in prices across many stocks. It hurts in the moment, but history shows markets have recovered after major crashes — though it can take time.",
+        "No. Many people start small and learn habits first — regular amounts, patience, and not betting money they need for rent or food.",
+        "It means measuring results in years or decades, not days — giving good companies and diversified baskets time to ride out bad years."
+      ],
+      "correctIndex": 2,
+      "explanation": "It means measuring results in years or decades, not days — giving good companies and diversified baskets time to ride out bad years."
+    },
+    {
+      "prompt": "What is a stock market crash?",
+      "choices": [
+        "Inflation is when money buys less over time because prices for food, rent, and other stuff slowly rise.",
+        "It means that, measured over long stretches (like decades), broad groups of stocks have tended to grow faster than cash sitting in a drawer — even though there are crashes along the way.",
+        "A fast, scary drop in prices across many stocks. It hurts in the moment, but history shows markets have recovered after major crashes — though it can take time."
+      ],
+      "correctIndex": 2,
+      "explanation": "A fast, scary drop in prices across many stocks. It hurts in the moment, but history shows markets have recovered after major crashes — though it can take time."
+    },
+    {
+      "prompt": "Why is copying “whatever is hype on the internet today” a bad plan for beginners?",
+      "choices": [
+        "Because inflation can shrink what your money can buy, even if the number on your account stays the same.",
+        "Because hype moves fast and emotions run hot. Beginners do better building boring basics: learn terms, diversify, think in years, and avoid gambling with money you need.",
+        "Saving is parking money somewhere safer and steadier (like a bank account). Investing means taking risk to try to grow money over time, usually by buying assets like stocks or funds."
+      ],
+      "correctIndex": 1,
+      "explanation": "Because hype moves fast and emotions run hot. Beginners do better building boring basics: learn terms, diversify, think in years, and avoid gambling with money you need."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}

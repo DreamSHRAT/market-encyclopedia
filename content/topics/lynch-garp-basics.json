@@ -1,0 +1,83 @@
+{
+  "id": "lynch-garp-basics",
+  "title": "Lynch: what you know, and how fast it grows",
+  "tags": ["Lynch", "GARP", "PEG", "categories"],
+  "diagnosticQuestions": [
+    {
+      "prompt": "The “local advantage” in Lynch’s style means:",
+      "choices": [
+        "You can observe products and services in real life — clues before spreadsheets",
+        "You must only buy local pizza shops",
+        "International stocks are illegal"
+      ],
+      "correctIndex": 0,
+      "hint": "Mall, workplace, home — what’s working?"
+    },
+    {
+      "prompt": "PEG (Price/Earnings to Growth) compares:",
+      "choices": [
+        "P/E to expected growth — a rough sanity check on what you pay vs growth",
+        "P/E to CEO age",
+        "Bond yields to weather"
+      ],
+      "correctIndex": 0,
+      "hint": "High P/E vs low growth can be a mismatch."
+    }
+  ],
+  "teachSlides": [
+    {
+      "title": "Six buckets",
+      "body": "Lynch famously sorted companies: slow growers, stalwarts, fast growers, cyclicals, turnarounds, asset plays. Each needs different expectations and timelines.",
+      "visual": "none"
+    },
+    {
+      "title": "GARP in one breath",
+      "body": "Growth at a reasonable price: you want growth, but you don’t want to pay the sky if growth is modest.",
+      "visual": "none"
+    },
+    {
+      "title": "Stories change",
+      "body": "A fast grower can become a stalwart. A turnaround can fail. Categories help you ask the right question at the right time.",
+      "visual": "none"
+    }
+  ],
+  "recapSlide": {
+    "title": "Recap",
+    "body": "Use what you observe, classify the company, and ask whether the price fits the growth story. PEG is a rough guide, not scripture.",
+    "visual": "none"
+  },
+  "masteryQuestions": [
+    {
+      "prompt": "A company has P/E 20 and long-term earnings growth near 5%. Many GARP-minded investors would:",
+      "choices": [
+        "Question whether the price fits the growth — P/E above growth can be a red flag",
+        "Buy solely because P/E exists",
+        "Assume 5% growth guarantees 20% stock returns"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paying a high multiple for slow growth is often uncomfortable in Lynch-style thinking."
+    },
+    {
+      "prompt": "A cyclical (e.g. autos, chemicals at peak earnings) often:",
+      "choices": [
+        "Needs a different lens than a fast grower — cycles mean highs can precede pain",
+        "Is always safer than tech",
+        "Has no earnings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Buying cyclicals near peak perception is a classic mistake."
+    },
+    {
+      "prompt": "“Stalwarts” in Lynch’s language are roughly:",
+      "choices": [
+        "Large, steady firms with moderate growth and often dividends",
+        "Penny stocks only",
+        "Only government bonds"
+      ],
+      "correctIndex": 0,
+      "explanation": "They’re the middle path: not hyper-growth, not pure speculation."
+    }
+  ],
+  "diagnosticPassRatio": 0.8,
+  "masteryPassRatio": 0.66
+}
